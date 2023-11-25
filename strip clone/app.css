@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: rgb(247,250,252);
+    /* background-color: black; */
+}
+.main-container {
+    /* height: 50vh; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    align-self: center;
+    row-gap: 16px;
+    margin: 24px auto;
+}
+.login-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px grey;
+    padding: 36px;
+    row-gap: 16px;
+    /* text-align: center; */
+    
+}
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+
+p{
+    text-align: left;
+    padding: 5px;
+    /* margin: 10px , 0px; */
+    /* margin-left: 20px; */
+}
+.field-field button{
+    width: 100%;
+    /* height: 80%; */
+    background-color: rgba(56, 35, 241, 0.699);
+    color:aliceblue;
+    border-radius: 8px ;
+    padding: 16px;
+    /* margin: 30px; */
+    font-size: 18px;
+    font-weight: bold;
+}
+.signup{
+    margin: 50px auto;
+    padding: 50px;
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px grey;
+    padding: 36px;
+    text-align: center;
+    display: none;
+}
+h2{
+    text-align: left;
+    margin: 10px 0px ;
+    /* padding: 50px; */
+
+}
+.text{
+    margin: 30px auto ;
+    
+}
+.forgot-pass {
+text-align: end;
+}
+.form-link .link{
+    margin: 20px;
+    display: flex;
+    
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group .pass-container {
+    position: relative;
+}
+
+.input-group input {
+    padding: 10px;
+    width: 45em;
+}
+.input-group img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    position: absolute;
+    right: 16px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+

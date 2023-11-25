@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>strip clone</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <section class = "container">
+        <div class="main-container" >
+    <h1 class = "strip">strip</h1>
+    <div class="login-container" id = "signup2">
+        <h2>Sign in to your account </h2>
+        <form action="#" method="POST"> 
+            <div class="input-group">
+                <p for="username">Email:</p>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class = "form-link forgot-pass"onclick="myFunction()"><span><a href="#" class = "sign-form" id  = "forget"> forget passwrod ?</a></span></div>
+            
+            <div class="input-group">
+                <p for="password">Password:</p>
+                <div class="pass-container">
+                <input type="password" id="password" name="password" required>
+                <img src="eye-close.png.png" alt=""id = eyeicon>
+                </div>
+            </div>
+            <div>
+            <input type="checkbox"name="agree_on"id="agree">
+            <label for="agree">stay signed in for a week</label>
+        </div>
+            <div class = field-field> 
+            <button>Login</button>
+           </div>
+        </form>
+        <div class="sign"><span><a href="#">use single  sign -on(sso)instead</a></span>          
+        </div>
+    </div>
+</div>
+    <div class = "para">
+    </div>
+
+    <div class=" signup" id = "signup">
+        <div class="form-sign">
+            <h2>Reset your password</h2>
+            <form action="#">
+                <span class = "paragraph">
+                    <p>Enter the email address associated with 
+                       your account and we'll send you a link to reset your password.
+                    </p>
+                </span>
+                <div class="input-group">
+                    <input type="email" placeholder="Email" class="text">
+                </div>
+
+                <div class="field-field">
+                    <button>forget password</button>
+                </div>
+            </form>
+
+            <div class="form-link" onclick="myFunction()">
+                <span><a href="#" class="link">retrun to sign</a></span>
+            </div>
+        </div>
+    </div>
+
+</section>
+    <script src="app.js"></script>
+</body>
+</html>
